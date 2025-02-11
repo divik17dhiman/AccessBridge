@@ -1,0 +1,21 @@
+{
+  "name": "website-accessibility-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "next": "^15.1.6",
+    "nodemon": "^3.1.9",
+    "pa11y": "^8.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
