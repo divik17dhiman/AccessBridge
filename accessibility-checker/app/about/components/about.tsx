@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Link from "next/link"
 
 export default function About() {
   return (
@@ -33,7 +34,9 @@ export default function About() {
         </p>
         <ol className="list-decimal list-inside space-y-2 mb-4">
           <li>Website Scan: We analyze your entire website, crawling through pages and content.</li>
-          <li>Compliance Check: Our tool checks your site against WCAG 2.1 guidelines and best practices.</li>
+          <li>Compliance Check: Our tool checks your site against 
+            <Link className="text-blue-500 dark:text-gray-400" target="_blank" href="https://www.w3.org/WAI/standards-guidelines/wcag/"> WCAG </Link> 
+             2.1 guidelines and best practices.</li>
           <li>Issue Identification: We identify potential accessibility issues and areas for improvement.</li>
           <li>Detailed Reporting: You receive a comprehensive report with specific issues and recommendations.</li>
           <li>Guided Fixes: We provide step-by-step guidance on how to resolve identified issues.</li>
