@@ -24,14 +24,12 @@ export default function AccessibilityChecker() {
           'Content-Type': 'application/json',
         },
       });
-      console.log(response);
       if (!response.ok) {
         const message = `An error has occurred: ${response.status}`;
         throw new Error(message);
       }
 
       const data = await response.json();
-      console.log(data);
 
       setResults(data);
     } catch (error) {
