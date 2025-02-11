@@ -1,5 +1,6 @@
 import './globals.css'
-
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 export default function RootLayout({
   children,
@@ -9,10 +10,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-      <script defer async src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+        <script defer async src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
       </head>
-      <body>{children}</body>
+      <body>
+        <div className="flex flex-col min-h-screen bg-gray-50">
+          <Header />
+          <div>
+            {children}
+          </div>
+          <Footer />
+        </div>
+      </body>
     </html>
   )
 }
