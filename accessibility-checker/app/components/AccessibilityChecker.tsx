@@ -53,23 +53,20 @@ export default function AccessibilityChecker() {
           <CardTitle>Check Website Accessibility</CardTitle>
         </CardHeader>
         <CardContent>
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} onReset={handleReset} className="space-y-4">
             <div>
-              <label htmlFor="url" className="block text-sm font-medium text-gray-700">
-                Enter Website URL
-              </label>
               <Input
                 type="url"
                 id="url"
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}
-                placeholder="https://example.com"
+                placeholder="Enter Website URL"
                 required
                 className="mt-1"
               />
             </div>
             <Button type="submit">Check Accessibility</Button>
-            <Button className="ml-6" type="button" onClick={handleReset}>Clear Results</Button>
+            <Button className="ml-6" type="reset">Clear Results</Button>
           </form>
         </CardContent>
       </Card>

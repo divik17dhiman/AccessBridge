@@ -11,9 +11,9 @@ export default function SkeletonDemo() {
         <Skeleton className=" mb-4 h-4 w-[250px]" />
         <Skeleton className=" mb-4 h-4 w-[250px]" />
         <Skeleton className=" mb-4 h-4 w-[100px]" />
-        <Skeleton className=" mb-4 h-4 w-[400px]" />
-        <Skeleton className=" mb-4 h-4 w-[400px]" />
-        <Skeleton className="h-4 w-[500px]" />
+        <Skeleton className=" mb-4 h-4 w-[300px]" />
+        <Skeleton className=" mb-4 h-4 w-[300px] xs-w-auto" />
+        <Skeleton className="h-4 w-[400px]" />
       </CardContent>
     </Card>
 
