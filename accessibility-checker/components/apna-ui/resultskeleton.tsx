@@ -8,12 +8,12 @@ export default function SkeletonDemo() {
         <CardTitle>Results</CardTitle>
       </CardHeader>
       <CardContent>
-        <Skeleton className=" mb-4 h-4 w-[250px]" />
-        <Skeleton className=" mb-4 h-4 w-[250px]" />
-        <Skeleton className=" mb-4 h-4 w-[100px]" />
-        <Skeleton className=" mb-4 h-4 w-[300px]" />
-        <Skeleton className=" mb-4 h-4 w-[300px] xs-w-auto" />
-        <Skeleton className="h-4 w-[400px]" />
+        <Skeleton className=" mb-4 h-4 w-[50%]" />
+        <Skeleton className=" mb-4 h-4 w-[60%]" />
+        <Skeleton className=" mb-4 h-4 w-[20%]" />
+        <Skeleton className=" mb-4 h-4 w-[70%]" />
+        <Skeleton className=" mb-4 h-4 w-[70%]" />
+        <Skeleton className="h-4 w-[80%]" />
       </CardContent>
     </Card>
 
