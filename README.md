@@ -20,23 +20,15 @@ The project is built using the following technologies:
 
 ### Frontend
 - **React.js**: For building the user interface.
-- **Axios**: For making API requests to the backend.
+- **Axios**: For making API requests.
 - **Bootstrap**: For responsive and accessible UI components.
-
-### Backend
-- **Node.js**: For server-side logic.
-- **Express.js**: For building RESTful APIs.
-- **Puppeteer**: For web scraping and automated browser testing.
-- **axe-core**: For performing accessibility audits.
 
 ### Database
 - **MongoDB**: For storing user data and test results.
 
 ### Installation
 
-#### Frontend
-
-1. Navigate to the frontend directory:
+1. Navigate to the project directory:
     ```sh
     cd frontend
     ```
@@ -46,27 +38,12 @@ The project is built using the following technologies:
     ```
 3. Start the development server:
     ```sh
-    npm start
-    ```
-
-#### Backend
-
-1. Navigate to the backend directory:
-    ```sh
-    cd backend
-    ```
-2. Install the dependencies:
-    ```sh
-    npm install
-    ```
-3. Start the backend server:
-    ```sh
-    npm start
+    npm run dev
     ```
 
 ## Usage
 
-1. Open your browser and navigate to the frontend development server (usually `http://localhost:3000`).
+1. Open your browser and navigate to the development server (usually `http://localhost:3000`).
 2. Enter the URL of the website you want to test for accessibility.
 3. Click the "Analyze" button to start the accessibility test.
 4. Review the results, which include:
